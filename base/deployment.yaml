@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: demo-ui2
+  namespace: develop
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: demo-ui2
+  template:
+    metadata:
+      labels:
+        app: demo-ui2
+    spec:
+      containers:
+      - image: diegoruizrei/ui-test2:latest
+        name: demo-ui2
+        ports:
+        - containerPort: 8080

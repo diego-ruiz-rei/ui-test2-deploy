@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: demo-ui2
+  namespace: develop
+spec:
+  ports:
+  - port: 8080
+  selector:
+    app: demo-ui2
