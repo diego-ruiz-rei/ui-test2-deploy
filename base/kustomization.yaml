@@ -7,4 +7,4 @@ resources:
 - ./ingress.yaml
 images:
 - name: diegoruizrei/ui-test2
-  newTag: 72b4c03ca747cf673dc54ecb912da4f307c90f4c
+  newTag: f35de02e486b01d9564b52b2212cc675c2df5798
