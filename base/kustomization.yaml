@@ -6,7 +6,5 @@ resources:
 - ./service.yaml
 - ./ingress.yaml
 images:
-- name: diegoruizrei/ui-test2
-  newTag: 62c78f95fee0c1fd0e362f2b7ca34647aa5c5822
 - name: docker.drtest0629.reisys.io/ui-test
   newTag: 0.0.4
