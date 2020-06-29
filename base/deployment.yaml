@@ -14,7 +14,7 @@ spec:
         app: demo-ui2
     spec:
       containers:
-      - image: diegoruizrei/ui-test2:latest
+      - image: docker.drtest0629.reisys.io/ui-test:0.0.0
         name: demo-ui2
         ports:
         - containerPort: 8080
