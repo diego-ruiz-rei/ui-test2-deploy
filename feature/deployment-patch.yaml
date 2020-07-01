@@ -7,9 +7,9 @@ spec:
   template:
     spec:
       containers:
-        - name: demo-ui2
-          env:
-            - name: ENVIRONMENT
-              value: feature
-            - name: foo
-              value: bar
+      - name: demo-ui2
+        env:
+        - name: ENVIRONMENT
+          value: feature
+        - name: foo
+          value: bar
