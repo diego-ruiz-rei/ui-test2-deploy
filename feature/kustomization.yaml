@@ -5,7 +5,7 @@ resources:
 - ../base
 
 patchesStrategicMerge:
-- ./deployment-patch.yaml
+- deployment-patch.yaml
 
 images:
 - name: docker.jmeks2020.reisys.io/ui-test
