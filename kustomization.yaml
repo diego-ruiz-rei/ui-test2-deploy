@@ -1,6 +1,0 @@
-resources:
-  - feature
-  - develop
-  - test
-  - staging
-  - prod
