@@ -10,5 +10,5 @@ patchesStrategicMerge:
 - ./deployment-patch.yaml
 
 images:
-- name: docker.drtest0629.reisys.io/ui-test
+- name: docker.jmeks2020.reisys.io/ui-test
   newTag: 0.0.6
