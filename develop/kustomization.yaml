@@ -4,11 +4,11 @@ kind: Kustomization
 namespace: develop
 
 resources:
-  - ../base
+- ../base
 
 patchesStrategicMerge:
-  - deployment-patch.yaml
+- deployment-patch.yaml
 
 images:
-  - name: docker.jmeks2020.reisys.io/ui-test
-    newTag: 0.0.6
+- name: docker.jmeks2020.reisys.io/ui-test
+  newTag: latest-2
