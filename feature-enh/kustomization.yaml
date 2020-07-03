@@ -3,7 +3,7 @@ kind: Kustomization
 
 namespace: feature
 
-nameSuffix: feature-enh
+nameSuffix: -feature-enh
 
 resources:
 - ../base
@@ -13,4 +13,4 @@ patchesStrategicMerge:
 
 images:
 - name: docker.jmeks2020.reisys.io/ui-test
-  newTag: feature-enh-3
+  newTag: feature-enh-6
