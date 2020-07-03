@@ -3,6 +3,8 @@ kind: Kustomization
 
 namespace: feature
 
+nameSuffix: __BRANCH_NAME__
+
 resources:
 - ../base
 
