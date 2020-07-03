@@ -11,4 +11,4 @@ patchesStrategicMerge:
 
 images:
 - name: docker.jmeks2020.reisys.io/ui-test
-  newTag: feature-pipeline-39
+  newTag: feature-pipeline-40
