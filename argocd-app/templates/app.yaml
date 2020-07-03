@@ -18,7 +18,7 @@ spec:
   source:
     repoURL: {{ .Values.global.source.repoURL }}
     targetRevision: {{ .Values.global.source.targetRevision }}
-    path: "{{ .Values.destination.namespace }}"
+    path: "{{ .Values.branch.name }}"
 
   # Destination cluster and namespace to deploy the application
   destination:
