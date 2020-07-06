@@ -12,7 +12,7 @@ spec:
   #- host: demo-ui2.jmeks2020.reisys.io
   - http:
       paths:
-        - path: /
-          backend:
-            serviceName: demo-ui2
-            servicePort: 8080
+      - path: /
+        backend:
+          serviceName: demo-ui2
+          servicePort: 8080
