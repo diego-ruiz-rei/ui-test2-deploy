@@ -1,0 +1,7 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: testui2-ingress-subdomain
+spec:  
+  rules:
+  - host: demo-ui2-develop.jmeks2020.reisys.io

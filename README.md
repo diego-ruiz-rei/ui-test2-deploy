@@ -8,4 +8,7 @@ Update yaml files in `base` folder to point to use correct url and docker image 
 
 # Setup in argocd through jenkins
 ### HELM
-`helm install demo-ui2-BRANCH_NAME-feature ./argocd-app --set branch.name=BRANCH_NAME --set destination.namespace=feature -n feature`
+`helm install demo-ui2-BRANCH_NAME ./argocd-app --set branch.name=BRANCH_NAME --set destination.namespace=feature -n feature`
+
+# Setup the ingress in a multi-environment
+https://github.com/jetstack/kustomize-cert-manager-demo
