@@ -11,4 +11,4 @@ patchesStrategicMerge:
 
 images:
 - name: docker.jmeks20.reisys.io/ui-test
-  newTag: latest-5
+  newTag: latest-2
