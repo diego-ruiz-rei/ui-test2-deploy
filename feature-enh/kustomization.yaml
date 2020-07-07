@@ -13,4 +13,4 @@ patchesStrategicMerge:
 
 images:
 - name: docker.jmeks20.reisys.io/ui-test
-  newTag: feature-enh-2
+  newTag: feature-enh-3
