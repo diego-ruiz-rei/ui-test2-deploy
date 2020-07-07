@@ -12,5 +12,5 @@ patchesStrategicMerge:
 - deployment-patch.yaml
 
 images:
-- name: docker.jmeks2020.reisys.io/ui-test
+- name: docker.jmeks20.reisys.io/ui-test
   newTag: feature-pipeline-48

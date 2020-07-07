@@ -4,7 +4,7 @@ metadata:
   name: testui2-ingress-subdomain
 spec:
   rules:
-    - host: demo-ui2-develop.jmeks2020.reisys.io
+    - host: demo-ui2-develop.jmeks20.reisys.io
       http:
         paths:
           - path: /
@@ -14,4 +14,4 @@ spec:
   tls:
   - hosts:
     # Change this to your own domain
-    - demo-ui2-develop.jmeks2020.reisys.io
+    - demo-ui2-develop.jmeks20.reisys.io
