@@ -12,4 +12,4 @@ patchesStrategicMerge:
 
 images:
 - name: docker.jmeks20.reisys.io/ui-test
-  newTag: master-4
+  newTag: master-2
