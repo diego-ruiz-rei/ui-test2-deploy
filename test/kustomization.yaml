@@ -4,11 +4,12 @@ kind: Kustomization
 namespace: test
 
 resources:
-  - ../base
+- ../base
 
 patchesStrategicMerge:
-  - deployment-patch.yaml
+- ingress.yaml
+- deployment-patch.yaml
 
 images:
-  - name: docker.jmeks20.reisys.io/ui-test
-    newTag: 0.0.6
+- name: docker.jmeks20.reisys.io/ui-test
+  newTag: 0.0.6

@@ -9,6 +9,7 @@ resources:
 - ../base
 
 patchesStrategicMerge:
+- ingress.yaml
 - deployment-patch.yaml
 
 images:
