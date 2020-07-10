@@ -5,6 +5,3 @@ resources:
 - ./deployment.yaml
 - ./service.yaml
 - ./ingress.yaml
-images:
-- name: docker.drtest0629.reisys.io/ui-test
-  newTag: 0.0.7

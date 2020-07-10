@@ -1,0 +1,17 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: testui2-ingress-subdomain
+spec:
+  rules:
+    - host: demo-ui2-develop.jmeks20.reisys.io
+      http:
+        paths:
+          - path: /
+            backend:
+              serviceName: demo-ui2
+              servicePort: 8080
+  tls:
+  - hosts:
+    # Change this to your own domain
+    - demo-ui2-develop.jmeks20.reisys.io

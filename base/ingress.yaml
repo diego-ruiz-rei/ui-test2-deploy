@@ -2,18 +2,17 @@ apiVersion: extensions/v1beta1
 kind: Ingress
 metadata:
   name: testui2-ingress-subdomain
-  namespace: develop
   annotations:
-    kubernetes.io/ingress.class: nginx
+    kubernetes.io/ingress.class: "nginx"
     nginx.ingress.kubernetes.io/ssl-redirect: "false"
     nginx.ingress.kubernetes.io/force-ssl-redirect: "false"
     nginx.ingress.kubernetes.io/rewrite-target: /
 spec:  
   rules:
-  - host: demo-ui2.drtest0629.reisys.io
-    http:
+  #- host: demo-ui2.jmeks2020.reisys.io
+  - http:
       paths:
-        - path: /
-          backend:
-            serviceName: demo-ui2
-            servicePort: 8080
+      - path: /
+        backend:
+          serviceName: demo-ui2
+          servicePort: 8080

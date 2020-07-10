@@ -2,7 +2,6 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: demo-ui2
-  namespace: develop
 spec:
   replicas: 1
   selector:
@@ -14,7 +13,7 @@ spec:
         app: demo-ui2
     spec:
       containers:
-      - image: docker.drtest0629.reisys.io/ui-test:0.0.0
+      - image: docker.jmeks20.reisys.io/ui-test:0.0.0
         name: demo-ui2
         ports:
         - containerPort: 8080
